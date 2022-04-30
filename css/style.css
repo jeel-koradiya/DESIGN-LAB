@@ -1,0 +1,884 @@
+/* PSD-3 */
+
+/* Fonts & Icons */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+
+/* Global Declarations */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  color: #ffff;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+p {
+  line-height: 0;
+}
+.container {
+  max-width: 902px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+  width: 100%;
+  display: table;
+  content: "";
+}
+
+/* section1 */
+
+body > div:nth-child(1) {
+  background-image: url("../assets/images/hbackground.png");
+  background-repeat: no-repeat;
+  height: 1072px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.section1 .logo {
+  padding-left: 2px;
+  padding-top: 286px;
+  padding-bottom: 19.97px;
+}
+
+.section1 .logo1 {
+  padding-left: 2px;
+}
+
+.section1 .working {
+  margin-right: 5px;
+  margin-bottom: 0px;
+  font-size: 54px;
+  letter-spacing: 8.5px;
+  line-height: 64.95px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Lato";
+}
+
+.section1 .with1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 54px;
+  letter-spacing: 8.6px;
+  line-height: 64.95px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Lato";
+  margin-left: 8px;
+  padding-bottom: 17px;
+}
+
+.section1 .wehave {
+  max-width: 577px;
+  font-size: 15px;
+  letter-spacing: 0.9px;
+  line-height: 29px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Lato";
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 221px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* section2 */
+
+.section2 fieldset {
+  margin-top: 134px;
+  margin-left: 0px;
+  margin-bottom: 159px;
+  text-align: center;
+  border: 2px solid #3c3c3c;
+}
+
+.section2 legend {
+  padding: 0 105px;
+  font-size: 34px;
+  letter-spacing: 5.5px;
+  color: #3c3c3c;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+  margin-left: 2px;
+}
+
+.section2 .awhen {
+  margin: 0 auto;
+  max-width: 535px;
+  padding-top: 23px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-family: "Lato";
+  padding-bottom: 8px;
+  width: 100%;
+}
+
+.section2 .aour {
+  max-width: 365px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.section2 .athen {
+  font-size: 16px;
+  line-height: 23px;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+  padding-bottom: 33px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+.section2 .logo1 {
+  padding-left: 1px;
+}
+
+/* section3 */
+
+.section3 {
+  padding-top: 103px;
+  background-image: url("../assets/images/lservices.png");
+  background-repeat: no-repeat;
+  height: 488px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.section3 fieldset {
+  border: 2px solid #ffff;
+}
+
+.section3 legend {
+  padding: 1px 109px 0 109px;
+  font-size: 34px;
+  letter-spacing: 5.4px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+  margin-left: 2px;
+}
+
+.section3 .awhen {
+  padding-top: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 11px;
+  max-width: 553px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section3 .aour {
+  max-width: 542px;
+  margin-left: 0px;
+  line-height: 25px;
+  font-size: 16px;
+  margin-top: 0;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+  margin-bottom: 0px;
+  padding-left: 7px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section3 .athen {
+  max-width: 522px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+  padding-left: 7px;
+  padding-bottom: 4px;
+  margin: 0 auto;
+}
+.section3 .you {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 5px;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+  padding-bottom: 53px;
+}
+
+/* sectin-4 */
+
+.section4 fieldset {
+  margin-left: 0px;
+  margin-top: 96px;
+  margin-bottom: 114px;
+  text-align: center;
+  border: 2px solid #3c3c3c;
+}
+
+.section4 legend {
+  padding: 0px 74px 0px 73px;
+  font-size: 34px;
+  letter-spacing: 5.5px;
+  color: #3c3c3c;
+  font-weight: 700;
+  font-family: "Lato";
+  text-transform: uppercase;
+  text-align: center;
+  margin-left: 3px;
+}
+
+.section4 .awhen1 {
+  text-transform: uppercase;
+  padding-top: 9px;
+  line-height: 24px;
+  padding-bottom: 8px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #3c3c3c;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.section4 .aour1 {
+  max-width: 456px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 8px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+  margin: 0 auto;
+}
+
+.section4 .aour22 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 11px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.section4 .aour33 {
+  max-width: 544px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: auto;
+  font-size: 14px;
+  line-height: 24px;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+  margin-right: auto;
+}
+.section4 .aour44 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 6px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.section4 .imgwhat1 {
+  padding-top: 93px;
+}
+
+.section4 .awhen2 {
+  text-transform: uppercase;
+  padding-top: 0px;
+  margin-top: 27px;
+  line-height: 24px;
+  padding-bottom: 8px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #3c3c3c;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+  margin-left: 5px;
+}
+
+.section4 .aour2 {
+  max-width: 551px;
+  padding-top: 4px;
+  font-size: 14px;
+  line-height: 25px;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section4 .imgwhat2 {
+  padding-top: 105px;
+}
+
+.section4 .awhen3 {
+  margin-bottom: 0px;
+  padding-bottom: 23px;
+  margin-left: 4px;
+  text-transform: uppercase;
+  padding-top: 12px;
+  line-height: 24px;
+  padding-bottom: 22px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #3c3c3c;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+}
+
+.section4 .aour3 {
+  max-width: 521px;
+  font-size: 14px;
+  margin-left: auto;
+  line-height: 25px;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+  margin-bottom: 76px;
+  margin-right: auto;
+}
+.section4 .imgwhat3 {
+  padding-top: 90px;
+}
+
+/* section-5 */
+
+.timg1 {
+  background-image: url("../assets/images/topworks.png");
+  float: left;
+  width: 28.8%;
+  height: 237px;
+  margin-bottom: 9px;
+  padding-top: 155px;
+  padding-left: 42px;
+  background-repeat: no-repeat;
+}
+
+.timg2 {
+  background-image: url("../assets/images/joint.png");
+  float: left;
+  width: 41.4%;
+  height: 237px;
+  margin-left: 9px;
+  margin-right: 9px;
+  margin-bottom: 9px;
+  padding-top: 155px;
+  padding-left: 42px;
+  background-repeat: no-repeat;
+}
+
+.timg3 {
+  background-image: url("../assets/images/market.png");
+  float: left;
+  width: 28.8%;
+  height: 237px;
+  margin-bottom: 9px;
+  padding-top: 155px;
+  padding-left: 47px;
+  background-repeat: no-repeat;
+}
+
+.timg4 {
+  background-image: url("../assets/images/worktop.png");
+  float: left;
+  width: 28.8%;
+  height: 237px;
+  padding-top: 155px;
+  padding-left: 42px;
+  background-repeat: no-repeat;
+}
+
+.timg5 {
+  background-image: url("../assets/images/lable.png");
+  float: left;
+  width: 41.4%;
+  height: 237px;
+  margin-right: 9px;
+  margin-left: 9px;
+  padding-top: 155px;
+  padding-left: 42px;
+  background-repeat: no-repeat;
+}
+
+.timg6 {
+  background-image: url("../assets/images/kyly.png");
+  float: left;
+  width: 28.8%;
+  height: 237px;
+  padding-top: 155px;
+  padding-left: 44px;
+  background-repeat: no-repeat;
+}
+
+.block {
+  font-size: 34px;
+  letter-spacing: 5px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Lato";
+
+  width: 100%;
+}
+
+/* section-6 */
+
+.section6 fieldset {
+  margin-top: 112px;
+  margin-left: 0px;
+  text-align: center;
+  border: 2px solid #3c3c3c;
+}
+
+.section6 legend {
+  padding: 8px 92px 0 91px;
+  font-size: 30px;
+  letter-spacing: 5px;
+  color: #3c3c3c;
+  font-weight: 700;
+  font-family: "Lato";
+  text-align: center;
+  margin-left: 3px;
+}
+.section6 .awhen {
+  margin: 0 auto;
+  max-width: 538px;
+  padding-top: 21px;
+  font-size: 16px;
+  line-height: 25px;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-family: "Lato";
+  padding-bottom: 26px;
+}
+
+.section6 .aour {
+  font-size: 16px;
+  line-height: 24px;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.section6 .athen {
+  font-size: 16px;
+  color: #3c3c3c;
+  font-weight: 300;
+  font-family: "Lato";
+  text-align: center;
+  padding-bottom: 31px;
+}
+
+.button a {
+  padding: 10px 90px;
+  margin-bottom: 37px;
+  text-decoration: none;
+  line-height: 33px;
+  background-color: #3c3c3c;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 2.9px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Lato";
+  text-align: center;
+}
+
+/* footer */
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #3c3c3c;
+  font-weight: 400;
+  font-family: "Lato";
+  padding-top: 64px;
+  padding-bottom: 65px;
+}
+
+.flogo {
+  float: left;
+  padding-left: 285px;
+  padding-right: 35px;
+}
+.foot1 {
+  padding-top: 8px;
+  float: left;
+}
+.copy {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+/* Font Families
+---------------
+Hairline/Thin - 100
+Extra light - 200
+Light - 300
+Regular - 400
+Medium - 500
+Semibold - 600
+Bold - 700
+Extra Bold - 800
+Black - 900
+*/
+
+/* Responsive */
+/* max-width: 902px; */
+
+@media (max-width: 1798px) {
+  .timg1,
+  .timg2,
+  .timg3,
+  .timg4,
+  .timg5,
+  .timg6 {
+    background-size: cover;
+    width: 49%;
+    margin: 0 0px 15px 0;
+  }
+
+  .timg2,
+  .timg4,
+  .timg6 {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 800px;
+  }
+
+  .section1 .logo {
+    padding-top: 200px;
+    padding-bottom: 0;
+  }
+
+  body > div:nth-child(1) {
+    height: 958px;
+  }
+
+  .section2 fieldset {
+    margin-top: 100px;
+    margin-bottom: 90px;
+  }
+}
+
+@media (max-width: 850px) {
+  .container {
+    max-width: 600px;
+  }
+
+  .timg1,
+  .timg2,
+  .timg3,
+  .timg4,
+  .timg5,
+  .timg6 {
+    width: 100%;
+    margin: 0 0px 15px 0;
+  }
+
+  .foot1 {
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 8px;
+    float: none;
+    padding-left: 15px;
+  }
+
+  .flogo {
+    float: none;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .section1 .with1,
+  .section1 .working {
+    font-size: 45px;
+  }
+
+  .section2 legend,
+  .section3 legend,
+  .section4 legend,
+  .block {
+    font-size: 30px;
+  }
+
+  .button a {
+    padding: 10px 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section1 .with1,
+  .section1 .working {
+    font-size: 32px;
+    line-height: 50px;
+  }
+
+  .section1 .wehave {
+    font-size: 14px;
+    padding-bottom: 100px;
+  }
+
+  .section1 .logo {
+    padding-top: 100px;
+  }
+
+  body > div:nth-child(1) {
+    height: 650px;
+  }
+
+  .section2 legend,
+  .section3 legend,
+  .section4 legend,
+  .block {
+    font-size: 28px;
+  }
+
+  .section2 .awhen,
+  .section2 .aour,
+  .section2 .athen,
+  .section3 .awhen,
+  .section3 .aour,
+  .section3 .athen,
+  .section6 .awhen {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .section2 fieldset {
+    padding: 50px 0px;
+  }
+  .section3 {
+    height: 390px;
+    padding-top: 50px;
+  }
+
+  .section4 fieldset,
+  .section6 fieldset {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .section4 .imgwhat1 {
+    padding-top: 50px;
+  }
+
+  .section4 .awhen1 {
+    padding-top: 0px;
+    font-size: 18px;
+  }
+
+  .section4 .imgwhat2,
+  .section4 .imgwhat3 {
+    padding-top: 50px;
+  }
+
+  .imgwhat1 img,
+  .imgwhat2 img,
+  .imgwhat3 img {
+    width: 60px;
+  }
+
+  .section4 .aour1,
+  .section4 .aour33,
+  .section4 .aour2,
+  .section4 .aour3 {
+    font-size: 13px;
+  }
+
+  .button a {
+    padding: 8px 45px;
+    font-size: 14px;
+  }
+
+  footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .section2 legend,
+  .section3 legend,
+  .section4 legend,
+  .block,
+  .section6 legend {
+    font-size: 26px;
+  }
+
+  .section2 legend,
+  .section3 legend,
+  .section4 legend,
+  .section6 legend {
+    padding: 0 70px;
+  }
+}
+
+@media (max-width: 453px) {
+  .section2 .awhen,
+  .section2 .aour,
+  .section2 .athen {
+    margin: 0 auto;
+    max-width: 327px;
+  }
+
+  .section2 legend,
+  .section3 legend,
+  .section4 legend,
+  .section6 legend {
+    padding: 0 50px;
+  }
+
+  .section3 .awhen,
+  .section3 .aour,
+  .section3 .athen {
+    max-width: 322px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section4 .aour1,
+  .section4 .aour33,
+  .section4 .aour2,
+  .section4 .aour3 {
+    max-width: 309px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section6 .awhen {
+    margin: 0 auto;
+    max-width: 316px;
+  }
+
+  .section6 legend {
+    font-size: 26px;
+  }
+  footer {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 453px) {
+  .section1 .with1,
+  .section1 .working {
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: 6px;
+  }
+
+  .section1 .wehave {
+    line-height: 27px;
+    font-size: 12px;
+    padding-bottom: 100px;
+  }
+
+  .section2 legend,
+  .section3 legend,
+  .section4 legend,
+  .block,
+  .section6 legend {
+    font-size: 22px;
+  }
+
+  .section2 .awhen,
+  .section2 .aour,
+  .section2 .athen,
+  .section3 .awhen,
+  .section3 .aour,
+  .section3 .athen,
+  .section6 .awhen {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .section4 .aour1,
+  .section4 .aour33,
+  .section4 .aour2,
+  .section4 .aour3 {
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .section2 legend,
+  .section3 legend,
+  .section4 legend,
+  .block,
+  .section6 legend {
+    font-size: 18px;
+  }
+
+  .flogo {
+    width: 9%;
+  }
+
+  footer {
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+}
